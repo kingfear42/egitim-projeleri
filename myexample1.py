@@ -1,0 +1,7 @@
+gun = int(input("Kaç gün olduğunu söyleyiniz biz hesaplayalım:"))
+dakika = ((gun*24)*60)
+hafta = (gun/7)
+hafta = int(hafta)
+gun2 = (gun%7)
+print(hafta , "hafta" , gun2 , "gün,")
+print(dakika , "dakika eder.")
